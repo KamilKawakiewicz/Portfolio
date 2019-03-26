@@ -1,0 +1,247 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+}
+
+.sliders {
+  height: 80vh;
+  position: relative;
+}
+
+img {
+  max-width: 1024px;
+  width: 100%;
+  height: 100%;
+  transition: .3s;
+}
+
+h1.texts {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -10%);
+  transition: 1s;
+}
+
+.dots span {
+  width: 2vh;
+  height: 2vh;
+  border-radius: 50%;
+  background: black;
+  position: absolute;
+  bottom: 2vh;
+  box-shadow: 0 0 0 5px white;
+}
+
+.dots span:nth-of-type(1) {
+  left: 43vw;
+}
+
+.dots span:nth-of-type(3) {
+  left: 57vw;
+}
+
+.dots span.active {
+  box-shadow: 0 0 0 3px white, 0 0 3px 5px red;
+}
+
+.up {
+  height: 10vh;
+  background: royalblue;
+}
+
+.down {
+  height: 10vh;
+  background: royalblue;
+}
+
+button {
+  position: absolute;
+  top: 40vh;
+  height: 5vh;
+  width: 5vh;
+  border: none;
+  cursor: pointer;
+  background: transparent;
+}
+
+button.left {
+  left: 5vw;
+}
+
+button.right {
+  right: 5vw;
+}
+
+.fas {
+  transform: scale(2);
+}
+
+@media (min-width: 360px) {
+  .fas {
+    transform: scale(2.5);
+  }
+}
+
+@media (min-width: 411px) {
+  .fas {
+    transform: scale(2.7);
+  }
+}
+
+@media (min-width: 768px) {
+  .fas {
+    transform: scale(4.2);
+  }
+
+  h1.texts {
+    font-size: 60px;
+  }
+}
+
+@media (min-width: 812px) {
+  .fas {
+    transform: scale(5);
+  }
+
+  h1.texts {
+    font-size: 30px;
+  }
+}
+
+@media (orientation: landscape) and (min-width: 533px) {
+  .dots span {
+    width: 3vh;
+    height: 3vh;
+  }
+
+  .dots span:nth-child(1) {
+    left: 45vw;
+  }
+
+  .dots span:nth-child(3) {
+    left: 55vw;
+  }
+}
+
+@media (orientation: landscape) and (min-width: 667px) {
+  .fas {
+    transform: scale(3.8);
+  }
+
+  button:hover {
+    border: none;
+  }
+}
+
+@media (orientation: landscape) and (min-width: 1024px) {
+  .fas {
+    transform: scale(3.2);
+  }
+
+  button.left {
+    left: 15vw;
+  }
+
+  button.right {
+    right: 15vw;
+  }
+}
+
+@media (min-width: 1024px) {
+  .fas {
+    transform: scale(6);
+  }
+
+  h1.texts {
+    font-size: 50px;
+  }
+
+  button.left {
+    left: 3vw;
+  }
+
+  button.right {
+    right: 3vw;
+  }
+}
+
+@media (min-width: 1030px) {
+  button.left {
+    left: 5vw;
+  }
+
+  button.right {
+    right: 5vw;
+  }
+}
+
+@media (min-width: 1366px) {
+  .fas {
+    transform: scale(6);
+  }
+
+  h1.texts {
+    font-size: 65px;
+  }
+
+  button.left {
+    left: 16vw;
+  }
+
+  button.right {
+    right: 16vw;
+  }
+
+  .dots span {
+    width: 2.5vh;
+    height: 2.5vh;
+  }
+}
+
+@media (min-width: 1440px) {
+  .fas {
+    transform: scale(6);
+  }
+
+  button.left {
+    left: 16vw;
+  }
+
+  button.right {
+    right: 16vw;
+  }
+}
+
+@media (min-width: 1920px) {
+  .fas {
+    transform: scale(7);
+  }
+
+  button.left {
+    left: 25vw;
+  }
+
+  button.right {
+    right: 25vw;
+  }
+}
+
+@media (min-width: 2560px) {
+  .fas {
+    transform: scale(8);
+  }
+
+  button.left {
+    left: 31vw;
+  }
+
+  button.right {
+    right: 31vw;
+  }
+}
