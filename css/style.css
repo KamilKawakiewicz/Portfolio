@@ -319,12 +319,11 @@ nav {
   z-index: 1;
   top: 0;
   right: 0;
-  cursor: pointer;
+  cursor: pointer; 
 }
 
 .show {
   display: block;
-
 }
 
 nav a {
@@ -333,15 +332,14 @@ nav a {
   justify-content: space-around;
   align-items: center;
   text-decoration: none;
-  color: var(--colorWhiteMenu);
+  color: black;
   font-size: 20px
 }
 
 nav a:hover {
-  background: var(--colorWhiteMenu);
-  color: white;
+  background: white;
+  color:black;
   transition: .2s linear;
-
 }
 
 
@@ -504,7 +502,30 @@ nav a:hover {
     right: 5%;
   }
 }
+@media (min-width:700px){
+  nav {
+    /* display: none; */
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: transparent;
+    position: fixed;
+    top: 15px;
+    right: 10px;
+  }
 
+  nav a {
+    height: 100%;
+    padding: 5px 20px;
+    font-size: 25px;
+    transition: 0.3s;
+  }
+  .burger {
+    display: none;
+  }
+}
 @media (min-width: 1024px) {
   header button {
     height: 80px;
@@ -978,34 +999,38 @@ nav a:hover {
   flex-wrap: wrap;
   justify-content: space-around;
 }
-
 .project {
   height: 100px;
   width: 200px;
   margin: 50px 50px;
   background: var(--colorBLue);
 }
-/* .project span {
- display: block;
-}
-
 .project span p {
-display: block
-} */
+  display: block;
+  font-size: 20px;
+  cursor: pointer;
+  color: black;
+  margin: 10px auto;
+}
 .signature{
+  height: 100%;
   display: flex;
+  justify-content: center;
+  align-items:center
 }
  .signature img{
 display: block;
 width: 60px;
-margin: 20px 20px;
+margin: 0px 20px;
+margin-top: 20px;
 cursor: pointer;
 }
 .signature p{ 
   font-family: 'Pacifico', cursive;
   font-size: 20px;
   width: 60px;
-  margin: 28px 20px;
+  margin: 0px 20px;
+  margin-top: 20px;
   text-transform: uppercase;
   text-decoration: none;
   color: black;
@@ -1014,13 +1039,7 @@ cursor: pointer;
   text-decoration: none;
   cursor: pointer;
 }
-.project:hover span {
-  display: none
-}
 
-.project:hover span p {
-display: none
-}
 
 @media (min-width: 533px) and (orientation: landscape) {
   .s3 h2 {
@@ -1073,25 +1092,26 @@ display: none
   transform: translate(0, 100%);
   transition: .3s
 }
-.project span p {
-  display: none;
-}
 
-.project:hover span {
-  height: 50px;
+
+/* .project:hover span {
+  display: block;
+  height: 40px;
   opacity: .5;
   background: linear-gradient(to bottom, #45484d 0%, #000000 100%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-}
+  W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+
+} */
 
-.project:hover span p {
+/* .project:hover span p {
   display: block;
   text-align: center;
-  line-height: 50px;
+  line-height: 40px;
   transition: 1s;
   color: var(--colorSection1)
+} */
+.project a{
+  text-decoration: none;
 }
-
 /* Section 4 */
 
 .s4 {
