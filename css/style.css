@@ -985,12 +985,41 @@ nav a:hover {
   margin: 50px 50px;
   background: var(--colorBLue);
 }
-.project span {
+/* .project span {
  display: block;
 }
 
 .project span p {
 display: block
+} */
+.signature{
+  display: flex;
+}
+ .signature img{
+display: block;
+width: 60px;
+margin: 20px 20px;
+cursor: pointer;
+}
+.signature p{ 
+  font-family: 'Pacifico', cursive;
+  font-size: 20px;
+  width: 60px;
+  margin: 28px 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+}
+.signature a{
+  text-decoration: none;
+  cursor: pointer;
+}
+.project:hover span {
+  display: none
+}
+
+.project:hover span p {
+display: none
 }
 
 @media (min-width: 533px) and (orientation: landscape) {
