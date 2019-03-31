@@ -102,7 +102,7 @@ const txtP = document.querySelector(".txt");
 const spnLine = document.querySelector(".cursor");
 
 indexTxt = 0;
-time = 50;
+time = 20;
 
 const writeLetter = () => {
     txtP.textContent += txt[indexTxt];

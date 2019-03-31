@@ -1000,17 +1000,16 @@ nav a:hover {
   justify-content: space-around;
 }
 .project {
-  height: 100px;
-  width: 200px;
+  height: 140px;
+  width: 240px;
   margin: 50px 50px;
   background: var(--colorBLue);
 }
 .project span p {
   display: block;
   font-size: 20px;
-  cursor: pointer;
   color: black;
-  margin: 10px auto;
+  margin: 5px auto;
 }
 .signature{
   height: 100%;
@@ -1092,6 +1091,9 @@ cursor: pointer;
   transform: translate(0, 100%);
   transition: .3s
 }
+/* .project span p {
+  margin: 5px auto;
+} */
 
 
 /* .project:hover span {
