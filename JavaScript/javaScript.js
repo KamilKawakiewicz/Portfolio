@@ -96,7 +96,8 @@ $(".contact").click(function () {
 
 // taping txt
 
-const txt = "Jestem 29 letnim Front-end developerem, pochodzę z Zagórza. Swoja przygodę tworzeniem stron internetowych rozpocząłem w kwietniu 2018 r.W moich projektach wykorzystuje HTML5, CSS3, Java Script i Jquery, w planach mam nauke react, node.js express i MongoDB. Moje projekty sa w pełni responsywne wygladaja dobrze zarówno na ekranach komputerow jak i telefonów mobilnych. Szukam pracy lub stażu na terenie Krakowa."
+const txt = `Jestem 30 letnim Front-end developerem, pochodzę z Zagórza. Swoja przygodę tworzeniem stron internetowych rozpocząłem w lipcu 2018 r. W moich projektach wykorzystuje HTML5, CSS3, Java Script, React.js. Używam narzędzia takich jak Git oraz Webpack. Jestem w trakcie nauki Node.js, Express.js i MongoDB. Moje projekty wykonuje w myśl zasady mobile-first, sa w pełni responsywne wygladaja dobrze zarówno na ekranach komputerow jak i telefonów mobilnych.  
+Szukam pracy lub stażu na terenie Krakowa.`
 
 const txtP = document.querySelector(".txt");
 const spnLine = document.querySelector(".cursor");
@@ -113,3 +114,7 @@ const writeLetter = () => {
 }
 
 const tapingLetter = setInterval(writeLetter, time);
+
+
+
+"Chciałem pokrótce opisać projekty znajdujace sie w portfolio:- Portfolio (HTML, CSS, Java-Script, jQuery) - Rock, Paper, Scissors (HTML ,CSS ,JS) - Slider (HTML ,CSS ,JS) -PhysiotherapySide (HTML, CSS, React.js, React-Router) - WeatherApp(HTML, CSS, React.js, REST API)"
