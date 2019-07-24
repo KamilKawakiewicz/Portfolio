@@ -180,7 +180,7 @@ header button {
   color: var(--colorWhite);
   transition: 0.3s linear;
   overflow: hidden;
-  animation: button 5s linear infinite;
+  animation: button 5 s linear infinite;
   cursor: pointer;
 }
 
@@ -829,6 +829,7 @@ nav a:hover {
   left: 20px;
   background: var(--colorBLue);
 }
+
 
 /* inProgress */
 
