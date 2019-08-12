@@ -96,7 +96,7 @@ $(".contact").click(function () {
 
 // taping txt
 
-const txt = `Jestem 30 letnim Front-end developerem, pochodzę z Zagórza. Swoją przygodę z tworzeniem stron internetowych rozpocząłem w lipcu 2018 r. W moich projektach wykorzystuję HTML5, CSS3, SASS, Java Script, React.js. Używam narzędzi takich jak NPM, Web Pack oraz GIT. Jestem w trakcie nauki Node.js, Express.js i MongoDB. W przyszłości chce nauczyć się także Bootstrap. Moje projekty wykonuję w myśl zasady mobile-first. Są w pełni responsywne, wygladają dobrze zarówno na ekranach komputerów jak i telefonów mobilnych. Szukam pracy lub stażu na terenie Krakowa.`
+const txt = `Jestem Front-end developerem, pochodzę z Zagórza. Swoją przygodę z tworzeniem stron internetowych rozpocząłem w lipcu 2018 r. W moich projektach wykorzystuję HTML5, CSS3, SASS, Java Script, React.js. Używam narzędzi takich jak NPM, Web Pack oraz GIT. Jestem w trakcie nauki Node.js, Express.js i MongoDB. W przyszłości chcę nauczyć się także Bootstrap. Moje projekty wykonuję w myśl zasady mobile-first. Są w pełni responsywne, wygladają dobrze zarówno na ekranach komputerów jak i telefonów mobilnych. Poszukuje pracy lub stażu.`
 
 const txtP = document.querySelector(".txt");
 const spnLine = document.querySelector(".cursor");
